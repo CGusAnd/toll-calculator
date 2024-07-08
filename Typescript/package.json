@@ -1,0 +1,26 @@
+{
+  "name": "toll-calculator-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Gustaf Andersson",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.7",
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "express": "^4.19.2"
+  }
+}
